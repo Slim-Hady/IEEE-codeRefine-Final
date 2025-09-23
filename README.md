@@ -25,3 +25,52 @@
     - System Should be intuitive , efficient and easy for intended user to learn and operate 
     - System should be designed in a way that is easy to modify , correct and enhance in the future
     - System should be scable to hold many user in the same time
+
+# Entity : 
+    - Employer 
+    - Freelancer 
+    - Jobs 
+    - Payments
+    
+# API Design : 
+- POST/jobs -> jobs 
+{
+   description , 
+    budget 
+} 
+
+   - GET/jobs?limit=?&page=? 
+
+   - PATCH/Freelancer/Profile?profileID -> profileINFO
+{
+skills ,
+protofolio,
+hourly rate 
+}
+
+
+   - PATCH/Employers/profile?profileID -> profileINFO
+{
+company_name ,
+job_posts 
+}
+
+- POST/payment?paymentID -> PaymentINFO
+{
+payment_number,
+status
+}
+
+- POST/review/freelancer -> rating
+{
+rate,
+feedback
+}
+
+- POST/review/Employer -> rating
+{
+rate,
+feedback
+}
+
+
