@@ -33,44 +33,68 @@
     - Payments
     
 # API Design : 
-- POST/jobs -> jobs 
+- POST/jobs -> jobs
+  
 {
-   description , 
-    budget 
+
+description ,
+   
+budget 
+    
 } 
 
-   - GET/jobs?limit=?&page=? 
+- GET/jobs?limit=?&page=? 
 
-   - PATCH/Freelancer/Profile?profileID -> profileINFO
+- PATCH/Freelancer/Profile?profileID -> profileINFO
+
 {
+
 skills ,
+
 protofolio,
+
 hourly rate 
+
 }
 
-
-   - PATCH/Employers/profile?profileID -> profileINFO
+- PATCH/Employers/profile?profileID -> profileINFO
+  
 {
+
 company_name ,
+
 job_posts 
+
 }
 
 - POST/payment?paymentID -> PaymentINFO
+
 {
+
 payment_number,
+
 status
+
 }
 
 - POST/review/freelancer -> rating
+  
 {
+
 rate,
+
 feedback
+
 }
 
 - POST/review/Employer -> rating
+  
 {
+
 rate,
+
 feedback
+
 }
 
 
