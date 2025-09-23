@@ -102,9 +102,56 @@
      
      feedback
      
-     }
+     }- POST/jobs -> jobs 
+{
+   description , 
+    budget 
+} 
+
+   - GET/jobs?limit=?&page=? 
+
+   - PATCH/Freelancer/Profile?profileID -> profileINFO
+{
+skills ,
+protofolio,
+hourly rate 
+}
+
+
+   - PATCH/Employers/profile?profileID -> profileINFO
+{
+company_name ,
+job_posts 
+}
+
+- POST/payment?paymentID -> PaymentINFO
+{
+payment_number,
+status
+}
+
+- POST/review/freelancer -> rating
+{
+rate,
+feedback
+}
+
+- POST/review/Employer -> rating
+{
+rate,
+feedback
+}
+
+
 ------------------------------------------------
 # Data Model
+
 <img width="726" height="595" alt="image" src="https://github.com/user-attachments/assets/c269322f-49f7-45cf-aecc-d65017abe60a" />
 
+------------------------------------------------
+# Back of the envelope Estimation : 
+    - Total User = 5 million 
+    - Daily active User = 2 million 
+    - Average jobs/freelance/daily = 2
+    - Total request = 2*2/5
 
