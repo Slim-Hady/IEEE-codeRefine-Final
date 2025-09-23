@@ -103,5 +103,8 @@
      feedback
      
      }
+------------------------------------------------
+# Data Model
+<img width="726" height="595" alt="image" src="https://github.com/user-attachments/assets/c269322f-49f7-45cf-aecc-d65017abe60a" />
 
 
