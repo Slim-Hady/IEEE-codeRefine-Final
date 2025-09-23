@@ -154,4 +154,7 @@ feedback
     - Daily active User = 2 million 
     - Average jobs/freelance/daily = 2
     - Total request = 2*2/5
+------------------------------------------------
+# HLD
+<img width="1186" height="911" alt="image" src="https://github.com/user-attachments/assets/3e2c2d52-b2bd-49d4-8f77-29ab9e35d12b" />
 
