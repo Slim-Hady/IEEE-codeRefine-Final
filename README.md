@@ -1,3 +1,5 @@
+https://excalidraw.com/#json=uBbmwYyThUNYvUBRB6BOP,Z2bX1bgLV6N9BxPhE23ASA
+
 # Functional Requirements :
      - Employer should be able to add Job posts that have job description , budget and min requirements
 
@@ -132,4 +134,17 @@
 ------------------------------------------------
 # HLD
 <img width="1186" height="911" alt="image" src="https://github.com/user-attachments/assets/3e2c2d52-b2bd-49d4-8f77-29ab9e35d12b" />
+
+# Deep Dives : 
+
+<img width="1086" height="1081" alt="image" src="https://github.com/user-attachments/assets/c5af70fc-f7ee-402a-b217-25165f2a755e" />
+
+- will use a normal RestFUl API for All service expect chat will use WebsocketAPI
+- Useing Third party for sending emails Notification to alert and chatting
+- will use a payment getwat that will make payment operation more secuire and efficent
+- job posts will be limited in one page for scaliabilty and maintalbilty
+- editing account will be PATCH because PUT change all data and this edit is Partial so it will be faster
+- every service have one page for make it easy for user to use and will not be one page with two service
+- Review database , Chat Database will be only that never cach because it will not remove
+- Mobile number will not user for dieffrent accoutns
 
