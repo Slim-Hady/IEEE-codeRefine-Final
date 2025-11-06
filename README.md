@@ -4,7 +4,7 @@
 
 -----
 
-## 📋 Functional Requirements :
+##  Functional Requirements :
 
   * Employer should be able to add Job posts that have job description , budget and min requirements
   * Freelancer should be able to see job posts and apply for the job and make a proposal
@@ -18,7 +18,7 @@
 
 -----
 
-## ⚙️ Non Functional Requirements :
+##  Non Functional Requirements :
 
   * System should be able send notifications when Employer or freelancer receive a new massage
   * System should be able to protect user data
@@ -28,7 +28,7 @@
 
 -----
 
-## 📦 Entity :
+##  Entity :
 
   * Employer
   * Freelancer
@@ -37,7 +37,7 @@
 
 -----
 
-## 🔌 API Design :
+##  API Design :
 
 **POST/jobs -\> jobs**
 
@@ -157,6 +157,7 @@
 ##  Deep Dives :
 
 <img width="1086" height="1081" alt="image" src="https://github.com/user-attachments/assets/c5af70fc-f7ee-402a-b217-25165f2a755e" /> 
+
 
   * will use a normal RestFUl API for All service expect chat will use WebsocketAPI
   * Useing Third party for sending emails Notification to alert and chatting
