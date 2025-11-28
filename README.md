@@ -133,13 +133,13 @@
 
 -----
 
-## 📊 Data Model
+## Data Model
 
 <img width="726" height="595" alt="image" src="https://github.com/user-attachments/assets/c269322f-49f7-45cf-aecc-d65017abe60a" /> 
 
 -----
 
-## 📈 Back of the envelope Estimation :
+## Back of the envelope Estimation :
 
   * Total User = 5 million
   * Daily active User = 2 million
@@ -148,7 +148,7 @@
 
 -----
 
-## 🏛️ HLD
+## HLD
 
 <img width="1186" height="911" alt="image" src="https://github.com/user-attachments/assets/3e2c2d52-b2bd-49d4-8f77-29ab9e35d12b" /> 
 
